@@ -1,0 +1,24 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/EZGeometry.hpp
+cfloat
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/cfloat
+cmath
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/cmath
+cstdlib
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/cstdlib
+iostream
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/iostream
+
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/test/main.cpp
+../EZGeometry.hpp
+C:/Personal/NEXT_Innovation/Code/Project/EZGeometry/EZGeometry.hpp
+iostream
+-
+
