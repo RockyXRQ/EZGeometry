@@ -208,7 +208,7 @@ public:
     return Distance(other) < epsilon;
   }
 
-  bool Equals(const Rotation2d &other) {
+  bool Equals(const Rotation2d &other) const {
     return Distance(other) < EPSILON_VALUE;
   }
 
@@ -563,7 +563,7 @@ public:
     return Pose2d::Log(Inverse().TransformBy(other)).Norm();
   }
 
-  bool Equals(Pose2d other) const {
+  bool Equals(const Pose2d& other) const {
     return EpsilonEquals(other, EPSILON_VALUE);
   }
 
