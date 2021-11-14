@@ -563,7 +563,7 @@ public:
     return Pose2d::Log(Inverse().TransformBy(other)).Norm();
   }
 
-  bool Equals(const Pose2d& other) const {
+  bool Equals(const Pose2d &other) const {
     return EpsilonEquals(other, EPSILON_VALUE);
   }
 
